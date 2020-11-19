@@ -7,8 +7,7 @@ public class Chattered {
     private static final int PORT = 8000;
     private static final String ROUTE = "/chattered";
     public static void main ( String [] args ) {
-        ChatteredHttpHandler httpHandler = new
-                ChatteredHttpHandler () ;
+        ChatteredHttpHandler httpHandler = new ChatteredHttpHandler () ;
         try {
             HttpServer server = HttpServer . create (
                     new InetSocketAddress( PORT ) , 0) ;
